@@ -1,0 +1,24 @@
+name: Cozy Tavern
+description: A warm medieval tavern with crackling fireplace and soft candlelight
+duration_hours: 3
+image:
+  prompt: >-
+    Interior of a cozy medieval tavern at night, warm fireplace glow,
+    wooden beams, candlelit tables, stone walls, tankards on shelves,
+    photorealistic, 4K, ambient warm lighting, no people
+  width: 3840
+  height: 2160
+  style: photorealistic
+animation:
+  duration_seconds: 30
+  fps: 30
+  zoom_range: [1.0, 1.25]
+  easing: ease_in_out
+audio:
+  layers:
+    - file: audio/fireplace_crackle.mp3
+      volume: 0.8
+    - file: audio/tavern_ambience.mp3
+      volume: 0.4
+  fade_out_seconds: 3.0
+output_resolution: [1920, 1080]

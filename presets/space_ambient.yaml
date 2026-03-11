@@ -1,0 +1,23 @@
+name: Space Ambient
+description: Deep space vista with nebula clouds and distant stars
+duration_hours: 1
+image:
+  prompt: >-
+    Deep space vista with colorful nebula clouds, distant stars,
+    a spiral galaxy in the background, cosmic dust particles,
+    photorealistic space photography style, 4K, dark background
+    with vibrant nebula colors
+  width: 3840
+  height: 2160
+  style: photorealistic
+animation:
+  duration_seconds: 30
+  fps: 30
+  zoom_range: [1.0, 1.1]
+  easing: ease_in_out
+audio:
+  layers:
+    - file: audio/space_drone.mp3
+      volume: 0.5
+  fade_out_seconds: 5.0
+output_resolution: [1920, 1080]

@@ -1,0 +1,27 @@
+name: Forest Stream
+description: A tranquil forest clearing with a babbling brook and birdsong
+duration_hours: 2
+image:
+  prompt: >-
+    Peaceful forest clearing with a small babbling stream,
+    dappled sunlight through tall trees, moss-covered rocks,
+    wildflowers along the bank, photorealistic, 4K,
+    natural ambient lighting, no people
+  width: 3840
+  height: 2160
+  style: photorealistic
+animation:
+  duration_seconds: 30
+  fps: 30
+  zoom_range: [1.0, 1.15]
+  easing: ease_in_out
+audio:
+  layers:
+    - file: audio/stream_water.mp3
+      volume: 0.6
+    - file: audio/forest_birds.mp3
+      volume: 0.4
+    - file: audio/gentle_wind.mp3
+      volume: 0.2
+  fade_out_seconds: 3.0
+output_resolution: [1920, 1080]

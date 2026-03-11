@@ -1,0 +1,25 @@
+name: Rainy Cafe
+description: A peaceful cafe on a rainy evening with soft jazz undertones
+duration_hours: 2
+image:
+  prompt: >-
+    Interior of a cozy Japanese cafe at night during heavy rain,
+    large windows showing rain streaks, warm interior lighting,
+    wooden furniture, potted plants, steam from coffee cups,
+    photorealistic, 4K, moody ambient lighting, no people
+  width: 3840
+  height: 2160
+  style: photorealistic
+animation:
+  duration_seconds: 30
+  fps: 30
+  zoom_range: [1.0, 1.2]
+  easing: ease_in_out
+audio:
+  layers:
+    - file: audio/rain_on_window.mp3
+      volume: 0.7
+    - file: audio/cafe_ambience.mp3
+      volume: 0.3
+  fade_out_seconds: 3.0
+output_resolution: [1920, 1080]

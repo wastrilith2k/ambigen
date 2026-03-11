@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+output/
+cache/
+audio/
+.env
+*.mp4
+*.png
+*.jpg
+*.egg-info/
+dist/
+build/
